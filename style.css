@@ -1,0 +1,1470 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital,wght@1,300&family=Smooch+Sans:wght@300&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto&family=Roboto+Mono:ital,wght@1,300&family=Smooch+Sans:wght@300&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&family=Outfit&family=Roboto&family=Roboto+Mono:ital,wght@1,300&family=Smooch+Sans:wght@300&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    height: 1100px;
+}
+
+.Main-Container {
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.Left-Section {
+    height: 600px;
+    background-color:  #7a37e3;
+    width: 60%;
+}
+
+.Right-Section {
+    height:600px;
+    background-color: #c8f15d;
+    width: 40%;
+}
+
+.Design-1 {
+    width: 295px;
+    position: absolute;
+    left: 1224px;
+    top: 320px;
+}
+
+.Design-2{
+    width: 295px;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+}
+
+.Nav-bar li {
+    display: flex;
+    text-decoration: none;
+    margin-left: 58px;
+    margin-top: 27px;
+}
+
+.Nav-bar li ul {
+    text-decoration: none;
+    color: #7a37e3;
+    padding: 0px 33px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    display: inline-block;
+}
+
+.Nav-bar li ul:hover{
+    color: black;
+}
+
+.Nav-bar li a {
+    text-decoration: none;
+}
+
+.Header {
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.Header h4 {
+    margin: 10px;
+    color:  #c8f15d;
+    font-weight: 400px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.Left-Content {
+    margin: 186px;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    top: 0px;
+    left: 158px;
+    font-size: 34px;
+}
+
+.bottom-name {
+    font-family: 'Rubik Doodle Shadow';
+}
+
+.Splash-Screen {
+    position: fixed;
+    background-color: #161616;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transition-duration: 2s;
+    transition-timing-function: ease-out ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.Splash-Screen2 {
+    position: fixed;
+    background-color: #b0947a;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transition-duration: 4s;
+    transition-timing-function: ease-out;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+.Section-2 {
+    display: flex;
+}
+
+.Contact-Section {
+    width: 690px;
+    height: 700px;
+    position: sticky;
+    background-color: #161616;
+    top: 0;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    overflow: hidden;
+    background-image: url(Images/Design-4.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Details-Section {
+    width: 855px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+
+.Details-Content {
+    width: 90%;
+    position: relative;
+    left: 50px;
+    top: 36px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+
+.Contact-Header {
+    color: #c8f15d;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 37px;
+    position: relative;
+    right: 92px;
+    top: 14px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+
+.Contact-Button {
+    padding: 10px;
+    border: white;
+    border-radius: 20px;
+    position: relative;
+    top: 60px;
+    left: 34px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+.Contact-Content {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.Page1 {
+    height: 500px;
+    position: sticky;
+    opacity: 1;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+
+.About-Header {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    color: #7a37e3;
+    margin-bottom: 10px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+
+.About-Sub-Header {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: #b0947a; 
+    position: relative;  
+    bottom: 10px;
+    margin-bottom: 50px; 
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+
+.About-Content p {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: #161616;
+    margin-bottom: 40px;
+}
+
+.Residence {
+    position: relative;
+    top: 65px;
+}
+
+.E-mail {
+    position: relative;
+    top: 125px;
+}
+
+.Freelance {
+    position: absolute;
+    top: 398px;
+    left: 415px;
+}
+
+.Q1 {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: #b0947a;
+}
+
+.Q2 {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: #b0947a;
+}
+
+.Q3 {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: #b0947a;
+}
+
+.Q1-Q{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: #161616;
+}
+
+.Q2-Q {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: #161616;
+}
+
+.Q3-Q {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: #161616;
+}
+
+.Skills-Header {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    color: #7a37e3;
+    margin-bottom: 10px;
+    position: absolute;
+    margin-bottom: 10px;
+    top: 15px;
+}
+
+.Skills-Sub-Header {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: #b0947a; 
+    position: absolute;
+    margin-bottom: 20px;
+    top: 45px;
+    left: 2px;
+}
+
+.Page-2 {
+    opacity: 1;
+    display: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+
+.Page-2:hover {
+    animation-name: fade-in;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.Skill-1-Header {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    top: 112px;
+}
+
+.Skill-1-Content {
+    position:absolute;
+    top: 139px;
+}
+
+.Skill-1-Content ul li{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+    color: rgb(133, 131, 131);
+    font-weight: 10px;
+}
+
+.Skill-1-Content ul{
+    list-style-type: none;
+}
+
+
+.Skill-2-Header {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    top: 112px;
+    left: 443px;
+}
+
+.Skill-2-Content {
+    position:absolute;
+    top: 139px;
+    left: 445px;
+}
+
+.Skill-2-Content ul li{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+    color: rgb(133, 131, 131);
+    font-weight: 10px;
+}
+
+.Skill-2-Content ul{
+    list-style-type: none;
+}
+
+
+.Skill-3-Header {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    top: 290px;
+}
+
+.Skill-3-Content {
+    position:absolute;
+    top: 320px;
+}
+
+.Skill-3-Content ul li{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+    color: rgb(133, 131, 131);
+    font-weight: 10px;
+}
+
+.Skill-3-Content ul{
+    list-style-type: none;
+}
+
+
+.Skill-4-Header {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    top: 290px;
+    left: 440px;
+}
+
+.Skill-4-Content {
+    position:absolute;
+    top: 320px;
+    left: 443px;
+}
+
+.Skill-4-Content ul li{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+    color: rgb(133, 131, 131);
+    font-weight: 10px;
+}
+
+.Skill-4-Content ul{
+    list-style-type: none;
+} 
+
+.Next-Button {
+    position: absolute;
+    top: 1230px;
+    left: 1340px;
+    background-color: white;
+    padding: 15px 36px;
+    border-color: white;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    width: 40px;
+}
+
+.Next-Button:hover {
+    scale: 1.1;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    animation: slide-right 1.5s forwards;
+}
+
+@keyframes slide-right {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(20px);
+    }
+}
+
+@keyframes slide-left {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-20px);
+    }
+}
+
+.Previous-Button {
+    background-color: white;
+    padding: 15px 36px;
+    border-color: white;
+    position: absolute;
+    top: 1230px;
+    left: 730px;
+    display: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    width: 40px;
+}
+
+.Previous-Button:hover {
+    scale: 1.1;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    animation: slide-left 1.5s forwards;
+}
+
+.line {
+    background-color: #b0947a;
+    width: 240px;
+    height: 4px;
+    border-radius: 20px;
+    position: absolute;
+    top: 235px;
+}
+
+.line1 {
+    background-color: #b0947a;
+    width: 240px;
+    height: 4px;
+    border-radius: 20px;
+    position: absolute;
+    top: 235px;
+    left: 445px
+}
+
+.line2 {
+    background-color: #b0947a;
+    width: 240px;
+    height: 4px;
+    border-radius: 20px;
+    position: absolute;
+    top: 435px;
+}
+
+.line3 {
+    background-color: #b0947a;
+    width: 240px;
+    height: 4px;
+    border-radius: 20px;
+    position: absolute;
+    top: 435px;
+    left: 445px;
+}
+
+.status {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: #b0947a;
+    position:absolute;
+    top: 215px;
+    left: 200px;
+}
+
+.status1 {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: #b0947a;
+    position:absolute;
+    top: 215px;
+    left: 645px;
+}
+
+.status2 {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: #b0947a;
+    position:absolute;
+    top: 415px;
+    left: 200px;
+}
+
+.status3 {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: #b0947a;
+    position:absolute;
+    top: 415px;
+    left: 645px;
+}
+
+.Portfolio-Header {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    color: #7a37e3;
+    margin-bottom: 10px;
+    position: absolute;
+    margin-bottom: 10px;
+    top: 15px;
+}
+
+.Portfolio-Sub-Header {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: #b0947a; 
+    position: absolute;
+    margin-bottom: 20px;
+    top: 45px;
+    left: 2px;
+}
+
+.Page-3 {
+    opacity: 1;
+    display: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+
+.Portfolio-Item-1 {
+    width: 247px;
+    height: 180px;
+    position: absolute;
+    top: 122px;
+    border: 10px rgb(22, 22, 22);
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Portfolio-Item-2 {
+    width: 163px;
+    height: 225px;
+    position: absolute;
+    top: 373px;
+    left: 387px;
+    border: 10px;
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Portfolio-Item-3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 379px;
+    left: 17px;
+    border: 10px;
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Portfolio-Item-4 {
+    width: 317px;
+    height: 216px;
+    position: absolute;
+    top: 103px;
+    left: 334px;
+    border: 10px;
+    background-color: rgb(22, 22, 22);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+
+.Portfolio-Item-1:hover {
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.Portfolio-Item-2:hover {
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.Portfolio-Item-3:hover {
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.Portfolio-Item-4:hover {
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.Certificates-Header {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    color: #7a37e3;
+    margin-bottom: 10px;
+    position: absolute;
+    margin-bottom: 10px;
+    top: 15px;
+}
+
+.Certificates-Sub-Header {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: #b0947a; 
+    position: absolute;
+    margin-bottom: 20px;
+    top: 45px;
+    left: 2px;
+}
+
+.Page-4 {
+    opacity: 1;
+    display: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+
+.Certificate-Item-1 {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 165px;
+    left: 17px;
+    border: 10px;
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Certificate-Item-2 {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 165px;
+    left: 360px;
+    border: 10px;
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Certificate-Item-3 {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 400px;
+    left: 360px;
+    border: 10px;
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Certificate-Item-4 {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 400px;
+    left: 17px;
+    border: 10px;
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Certificate-Item-1:hover {
+    transform: translateY(-15px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+.Certificate-Item-2:hover {
+    transform: translateY(-15px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+.Certificate-Item-3:hover {
+    transform: translateY(-15px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+.Certificate-Item-4:hover {
+    transform: translateY(-15px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+.Contact-Me-Header {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+    position: absolute;
+    margin-bottom: 10px;
+    top: 120px;
+    left: 950px;
+}
+
+.Contact-Me-Sub-Header {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: rgb(210, 91, 45); 
+    position: absolute;
+    margin-bottom: 20px;
+    top: 158px;
+    left: 980px
+}
+
+.Contact-Name {
+    padding: 10px;
+    position: absolute;
+    top: 215px;
+    left: 876px;
+    width: 380px;
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Contact-Name:hover{
+    scale: 1.1;
+}
+
+.Contact-Name input::placeholder {
+    padding-left: 5px;
+}
+
+.Contact-Details {
+    padding: 10px;
+    position: absolute;
+    top: 342px;
+    left: 876px;
+    width: 380px;
+    border-radius: 20px;
+    height: 65px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Contact-Details:hover {
+    scale: 1.1;
+}
+
+.Contact-Email {
+    padding: 10px;
+    position: absolute;
+    top: 278px;
+    left: 876px;
+    width: 380px;
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Contact-Email:hover {
+    scale: 1.1;
+}
+
+.Contact-Me {
+    display: none;
+}
+
+.Contact-Submit {
+    width: 210px;
+    height: 40px;
+    position: absolute;
+    top: 470px;
+    left: 975px;
+    border: solid white 2px;
+    border-radius: 20px;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    background-color: #161616;
+}
+
+.Contact-Submit:hover {
+    background-color: #c8f15d;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    color: black;
+}
+
+.Pop-Item-1 {
+    background-color: rgb(237, 237, 237);
+    width: 568px;
+    height: 495px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 100px;
+    left: 475px;
+    border-radius: 49px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+.Pop-Item-1:hover {
+    scale: 1.1;
+}
+
+.Pop-Item-1 img {
+    width: 500px;
+    position: absolute;
+    top: 60px;
+    left: 33px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Close-item-1 {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: red;
+    position: absolute;
+    top: 14px;
+    left: 522px;
+    font-size: 28px;
+}
+
+.Close-item-1:hover {
+    scale: 1.1;
+}
+
+.Pop-Item-2 {
+    background-color: rgb(237, 237, 237);
+    width: 568px;
+    height: 425px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 100px;
+    left: 475px;
+    border-radius: 49px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+.Pop-Item-2:hover {
+    scale: 1.1;
+}
+
+.Pop-Item-2 img {
+    width: 500px;
+    position: absolute;
+    top: 60px;
+    left: 33px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Close-item-2 {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: red;
+    position: absolute;
+    top: 14px;
+    left: 522px;
+    font-size: 28px;
+}
+
+.Close-item-2:hover {
+    scale: 1.1;
+}
+
+.Pop-Item-3 {
+    background-color: rgb(237, 237, 237);
+    width: 491px;
+    height: 479px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 100px;
+    left: 475px;
+    border-radius: 49px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+.Pop-Item-3:hover {
+    scale: 1.1;
+}
+
+.Pop-Item-3 img {
+    width: 400px;
+    position: absolute;
+    top: 60px;
+    left: 33px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Close-item-3 {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: red;
+    position: absolute;
+    top: 14px;
+    left: 438px;
+    font-size: 28px;
+}
+
+.Close-item-3:hover {
+    scale: 1.1;
+}
+
+.Pop-Item-4 {
+    background-color: rgb(237, 237, 237);
+    width: 491px;
+    height: 600px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 100px;
+    left: 475px;
+    border-radius: 49px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+.Pop-Item-4:hover {
+    scale: 1.1;
+}
+
+.Pop-Item-4 img {
+    width: 400px;
+    position: absolute;
+    top: 60px;
+    left: 33px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+}
+
+.Close-item-4 {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: red;
+    position: absolute;
+    top: 14px;
+    left: 438px;
+    font-size: 28px;
+}
+
+.Close-item-4:hover {
+    scale: 1.1;
+}
+
+@keyframes fade{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.Contact-Me {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+.Previous-Button-1 {
+    padding: 15px 36px; 
+    border-color: white;
+    position:absolute;
+    top: 610px;
+    left: 1310px;
+    width: 40px;
+}
+
+.Previous-Button-1:hover {
+    scale: 1.1;
+    animation: slide-left 1.5s forwards;
+}
+
+.Contact-Button {
+    width: 210px;
+    height: 40px;
+    position: absolute;
+    top: 230px;
+    left: 216px;
+    border: solid white 2px;
+    border-radius: 20px;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    background-color: #161616;
+}
+
+.Contact-Button:hover{
+    background-color: #c8f15d;
+    color: black;
+}
+
+.project-status{
+    width: 65.5%;
+    height: 50px;
+    opacity: 0.6;
+    background-color: rgb(32, 186, 32);
+    position: absolute;
+    top: 65px;
+    border: solid 3px;
+    border-color: rgb(12, 68, 12);
+    border-radius: 30px;
+    left: 315px;
+}
+
+.status-text{
+    color: white;
+    position: absolute;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    top: 83px;
+    left: 555px;
+}
+
+.close-bar{
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    top: 80px;
+    position: absolute;
+    left: 1277px;
+    font-size: 18px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0.2;
+    }
+}
+
+.close-bar:hover{
+    scale: 1.3;
+    animation: fade 2s forwards;
+}
+
+.Quoted{
+    display: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+.Design-3{
+    width: 255px;
+    position: absolute;
+    top: 326px;
+    left: 0px;
+}
+
+.Design-4{
+    width: 690px;
+    overflow: hidden;
+}
+
+.Design-5{
+    width: 65%;
+    position: relative;
+    top: 127px;
+    left: 193px 
+}
+
+.contact-nav{
+    width: 90px;
+    border: 2px solid white;
+    height: 40px;
+    position: absolute;
+    top: 33px;
+    left: 1365px;
+    font-family: "Source Code Pro", monospace;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    color: white;
+}
+
+.contact-nav:hover{
+    background-color: #7a37e3;
+    color: white;
+}
+
+.underline1{
+    height: 2px;
+    width: 8px;
+    background-color: #7a37e3;
+    position: relative;
+    left: 34px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+
+.underline2{
+    height: 2px;
+    width: 8px;
+    background-color: #7a37e3;
+    position: relative;
+    left: 34px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.underline3{
+    height: 2px;
+    width: 8px;
+    background-color: #7a37e3;
+    position: relative;
+    left: 34px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.divider1{
+    height: 600px;
+    position: absolute;
+    width: 20px;
+    background-color: #5a1eb9;
+    top: 0px;
+    left: 60%;
+}
+
+.divider2{
+    height: 600px;
+    position: absolute;
+    width: 20px;
+    background-color: #92bb2c;
+    top: 0px;
+    right: 568px;
+}
+
+.divider3{
+    width: 60%;
+    height: 20px;
+    background-color: #5a1eb9;
+    position: absolute;
+    top: 580px;
+}
+
+.divider4{
+    width: 38%;
+    height: 20px;
+    background-color: #92bb2c;
+    position: absolute;
+    top: 580px;
+    right: 0px;
+}
+
+.divider5{
+    height: 600px;
+    width: 20px;
+    background-color: #5a1eb9;
+    position: absolute;
+}
+
+.divider6{
+    height: 580px;
+    width: 20px;
+    background-color: #92bb2c;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.divider7{
+    width: 60%;
+    height: 20px;
+    background-color: #5a1eb9;
+    position:absolute;
+    top: 0px;
+}
+
+.divider8{
+    width: 38%;
+    height: 20px;
+    background-color: #92bb2c;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@keyframes InfiniteVoid{
+    0%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(20px);
+        opacity: 0;
+    }
+}
+
+.Arrow{
+    width: 50px;
+    position: absolute;
+    top: 345px;
+    left: 562px;
+    animation: InfiniteVoid 3s linear 0.5s infinite;
+    cursor: pointer;
+}
